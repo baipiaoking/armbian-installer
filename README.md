@@ -26,18 +26,18 @@
 6. 未来可能融入自编译armbian的流程
    
 ## 属性说明
-1-1. armbian系统默认用户名root 密码 1234
-1-2. Armbian镜像出处:https://github.com/wukongdaily/armbian-installer/releases/tag/2025-03-12
-2-1. 安装器中的Immortalwrt 24.10 x86-64-efi
-2-2. 固件地址 192.168.100.1
-2-3. 用户名 root 密码：无
-2-4. 默认软件包大小 2GB
-2-5. 默认带docker
-2-6. 该固件刷入【单网口设备】默认采用DHCP模式,自动获得ip。类似NAS的做法
-2-7. 该固件刷入【多网口设备】默认WAN口采用DHCP模式，LAN 口ip为 192.168.100.1
-2-8. 其中eth0为WAN 其余网口均为LAN (自动将剩余其他网口桥接 无需手动)
-2-9. 默认情况下 只要你知道wan口分配的ip 就能访问web页
-2-10. immortalwrt终端中使用 ip a 可查看网口信息
+- armbian系统默认用户名root 密码 1234
+- Armbian镜像出处:https://github.com/wukongdaily/armbian-installer/releases/tag/2025-03-12
+1. 安装器中的Immortalwrt 24.10 x86-64-efi
+2. 固件地址 192.168.100.1
+3. 用户名 root 密码：无
+4. 默认软件包大小 2GB
+5. 默认带docker
+6. 该固件刷入【单网口设备】默认采用DHCP模式,自动获得ip。类似NAS的做法
+7. 该固件刷入【多网口设备】默认WAN口采用DHCP模式，LAN 口ip为 192.168.100.1
+8. 其中eth0为WAN 其余网口均为LAN (自动将剩余其他网口桥接 无需手动)
+9. 默认情况下 只要你知道wan口分配的ip 就能访问web页
+10. immortalwrt终端中使用 ip a 可查看网口信息
 
 ## ISO自动制作流程
 本项目也是基于开源项目[debian-live](https://github.com/dpowers86/debian-live)制作.因此我的代码也是全程开源 MIT协议不变。
